@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+Sompt de Unity O referências
+public class Movimento: MonoBehaviour
+(
+private Vector3 entradasJogador;
+private CharacterController characterController;
+private float velocidadeJogador = 4f;
+
+private void Awake()
+{
+
+characterController GetComponent<CharacterController
+
+void Update()
+{
+
+entradas Jogador new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+
+characterController.Move(entradas Jogador time.deltatime velocidade jogador);
+Movimente
+{
+{
